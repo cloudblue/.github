@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security vulnerability
+    url: https://github.com/cloudblue/.github/blob/main/SECURITY.md
+    about: Please report security issues privately, not in a public issue.
+  - name: Questions about CloudBlue products
+    url: https://www.cloudblue.com/contact-us/
+    about: Product questions and support. Issues here are only for the code in this repository.

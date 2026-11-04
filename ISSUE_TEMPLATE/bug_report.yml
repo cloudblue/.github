@@ -1,0 +1,43 @@
+name: Bug report
+description: Something in this project doesn't work as it should.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this. Security issues go through the [security policy](https://github.com/cloudblue/.github/blob/main/SECURITY.md) instead.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you see, and what did you expect instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: The smallest set of steps, code or commands that shows the problem.
+      placeholder: |
+        1. ...
+        2. ...
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: The version of this project (for example `pip show <package>` or `npm ls <package>`), or a commit.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Operating system, and the Python, Node or Django version if they matter.
+      placeholder: macOS 26, Python 3.12, Django 5.2
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or error output
+      description: Remove any tokens, passwords or personal data before you paste.
+      render: shell
