@@ -28,7 +28,7 @@
 
 Keep Django microservices in sync. Save a model once and every replica follows, over RabbitMQ or Kombu.
 
-```sh
+```
 pip install django-cqrs
 ```
 
