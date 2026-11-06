@@ -15,6 +15,8 @@ Please include:
 - what an attacker could do, and the steps or a proof of concept to show it;
 - any fix or workaround you know of.
 
+Reports from scanners or AI tools are welcome once a person has checked them. Include steps to reproduce; we may close reports we can't reproduce.
+
 ## What happens next
 
 - We aim to confirm that we received your report within a few working days.
