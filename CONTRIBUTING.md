@@ -24,6 +24,15 @@ Thank you for taking the time to help. This guide applies to every repository in
 4. Keep the pull request to one change, and say **what** it does and **why**. If it fixes an issue, link it.
 5. Open the pull request against the default branch.
 
+## AI tools and agents
+
+You're welcome to use AI tools and coding agents. You still answer for the result:
+
+- Read and understand every line you submit, and be ready to explain it in review.
+- Run the tests and checks yourself before you open the pull request.
+- If the repository has an `AGENTS.md`, your agent should follow it.
+- We close pull requests from agents that no person has reviewed.
+
 ## Contributor License Agreement
 
 The first time you open a pull request, a bot asks you to sign our Contributor License Agreement (CLA) with CloudBlue LLC. It takes one click with your GitHub account, and you only do it once. We can only merge pull requests whose authors have signed it.
